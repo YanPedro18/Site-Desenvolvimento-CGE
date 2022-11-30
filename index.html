@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homologacao | CGE</title>
+    <link rel="shortcut icon" href="img/Logo-CGE.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</head>
+<body>
+
+<main class="principal">
+    <section class="container">
+        <ul id="scene">
+            <li class="layer" data-depth="-1"><img src="img/img-main.png" alt=""></li>
+        </ul>
+        <div class="lds-ripple"><div></div><div></div></div>
+    </section>
+</main>
+
+<footer class="rodape">
+    <h1>Controladora Geral do Estado <br>
+        Diretoria de Tecnologia da Informação e Comunicação
+    </h1>
+</footer>
+
+
+<script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+</script>
+</body>
+</html>
